@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 실습</title>
+    <style>
+        div.car {
+            position: relative;
+            background-image: url(car.jpg);
+            width: 1800px;
+            height: 1000px;
+            background-size: 100%;
+        }
+    div.img {
+        background-image: url(http://koreaitacademy.com/renewal2021/img/tch/teacher007.png);
+        background-size: 100%;
+        background-position: center;
+        top: 10%;
+        right: 3%;
+        width: 220px;
+        height: 315px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .sunglass {
+        position: absolute;
+        width: 30px;
+        right: 68%;
+        top: 23%;
+    }
+    .cigar {
+        position: absolute;
+        top: 38%;
+        right: 58%;
+    }
+    .gun {
+        position: absolute;
+        top:60%;
+    }
+    .hair {
+        position: absolute;
+        left: 16.5%;
+        top: 2%;
+    }
+    .car {
+        position: absolute;
+        left: 20%;
+    }
+    </style>
+</head>
+<body>
+    <div class="car">
+        <div class="img">
+            <div class="sunglass"><img  src="sunglass.png" style="width: 90px;"></div>
+            <div class="cigar"><img src="cigar.png" style="width: 100px;"></div>
+            <div class="hair"><img src="hair.jpg" style="width: 110px;"></div>
+        </div>
+    </div>
+</body>
+</html>

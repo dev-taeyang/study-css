@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'Noto Sans-L';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://res.kurly.com/fonts/NotoSansKR-Light.woff2') format('woff2'),
+    url('https://res.kurly.com/fonts/NotoSansKR-Light.woff') format('woff'),
+    url('https://res.kurly.com/fonts/NotoSansKR-Light.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans-R';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://res.kurly.com/fonts/NotoSansKR-Regular.woff2') format('woff2'),
+    url('https://res.kurly.com/fonts/NotoSansKR-Regular.woff') format('woff'),
+    url('https://res.kurly.com/fonts/NotoSansKR-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans-M';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://res.kurly.com/fonts/NotoSansKR-Medium.woff2') format('woff2'),
+    url('https://res.kurly.com/fonts/NotoSansKR-Medium.woff') format('woff'),
+    url('https://res.kurly.com/fonts/NotoSansKR-Medium.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans-B';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://res.kurly.com/fonts/NotoSansKR-Bold.woff2') format('woff2'),
+    url('https://res.kurly.com/fonts/NotoSansKR-Bold.woff') format('woff'),
+    url('https://res.kurly.com/fonts/NotoSansKR-Bold.otf') format('truetype');
+}
+.container {
+  min-width: 1050px;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  background-color: #fff;
+}
+body {
+  color: #333;
+  margin: 0;
+  user-select: none;
+  background-color: #fff;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 14px;
+}
+.logIn {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-family: Noto Sans-B;
+}
+html {
+  font-family: 'Noto Sans', 'malgun gothic', AppleGothic, dotum, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.15;
+}
+div {
+  display: block;
+}
+.body {
+  width: 340px;
+  margin: 0 auto;
+  letter-spacing: -0.6px;
+}
+.form {
+  display: block;
+}
+.idAndPassword {
+  margin-top: 30px;
+}
+.id {
+  padding-bottom: 12px;
+}
+.id:first-of-type {
+  margin-bottom: 5px;
+}
+.idDiv {
+  position: relative;
+  height: 48px;
+}
+.idInput {
+  width: 100%;
+  height: 54px;
+  padding: 0 11px 1px 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Noto Sans-R;
+}
+.password {
+  padding-bottom: 12px;
+}
+.passwordDiv {
+  position: relative;
+  height: 48px;
+}
+.passwordInput {
+  width: 100%;
+  height: 54px;
+  padding: 0 11px 1px 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Noto Sans-R;
+}
+.finder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.findId {
+  color: #333;
+  cursor: pointer;
+}
+.findPassword {
+  color: #333;
+  cursor: pointer;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+.findspan {
+  width: 1px;
+  height: 10px;
+  margin: 3px 6px 0;
+  background-color: #333;
+}
+.button {
+  margin-top: 28px;
+}
+.button1 {
+  display: block;
+  padding: 0 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height: 54px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #5f0080;
+  border: 0 none;
+  font-size: 16px;
+}
+.button2 {
+  display: block;
+  padding: 0 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height: 54px;
+  border-radius: 3px;
+  color: #5f0080;
+  background-color: #fff;
+  border: 1px solid #5f0080;
+  font-size: 16px;
+}
+button {
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-indent: 0px;
+  text-shadow: none;
+  align-items: flex-start;
+  font: inherit;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  text-transform: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: Noto Sans-M;
+}
+.kurlyLogo {
+}
+.logoContainer {
+  flex: auto;
+  width: 82px;
+  height: 42px;
+}
+.headContainer {
+  width: 1050px;
+  height: 63px;
+  padding-top: 36px;
+  margin: 0 auto;
+}
+.headWholeContainer {
+  width: 1423px;
+  height: 156px;
+  margin: 0 auto;
+  border-bottom: 2px solid gray;
+}

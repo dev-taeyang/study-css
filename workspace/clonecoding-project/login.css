@@ -1,0 +1,72 @@
+body {
+    letter-spacing: -.02em;
+    color: rgba(0,0,0,.84);
+}
+.header {
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #f0f2f5;
+    padding: 0;
+    height: 56px;
+    text-align: left;
+    top: 0;
+    z-index: 9998;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+.header-container{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100%;
+}
+
+.wadiz-logo {
+    display: inline-block;
+    position: static;
+    line-height: 22px;
+    font-size: 32px;
+}
+.label {
+    display: block;
+    position: absolute;
+    left: -9999px;
+    visibility: none;
+    height: 1px;
+}
+.gnb-large {
+    display: block;
+    position: absolute;
+    right: 80px;
+    left: auto;
+    color: #60656a;
+    margin-left: 24px;
+    z-index: 1;
+    list-style: none;
+}
+.gnb-large li {
+    float: left;
+    width: auto;
+}
+.gnb-large .item {
+    margin-left: 16px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    color: #60656a;
+}
+.gnb-large .item span {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 1px;
+    line-height: 55px;
+    color: rgba(0,0,0,.84);
+    text-align: center;
+}

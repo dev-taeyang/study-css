@@ -1,0 +1,24 @@
+.container {
+    margin : 100px;
+}
+.logo {
+    background: url("//img.danawa.com/img/auth/icon_login_220120.png") no-repeat;
+    width: 120px;
+    height: 30px;
+    display: inline;
+}
+.headMsg {
+    visibility: hidden;
+}
+.head {
+    display: flex;
+    margin-top: 100px;
+}
+.joinMsg {
+    margin: 0px 30px;
+}
+.memberbutton{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}

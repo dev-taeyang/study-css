@@ -1,0 +1,5 @@
+position: fixed 스크로엘에 상관없이 브라우저 기준으로 원하는 곳에 위치시킨다.
+
+position : absolute 스크롤에 영향을 받고 부모 중 relative가 없으면 브라우저 기준으로 위치시킨다.
+
+relative 자식 요소 중 

@@ -184,10 +184,7 @@ svg:not(:root) {
   overflow-clip-margin: content-box;
   overflow: hidden;
 }
-svg[Attributes Style] {
-  width: 1;
-}
-footerLeftBody2 {
+.footerLeftBody2 {
   padding: 0;
   box-sizing: border-box;
   margin: 0;

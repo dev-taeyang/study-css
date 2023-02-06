@@ -67,7 +67,7 @@ body {
 }
 .headerSub {
   position: absolute;
-  right: 13px;
+  right: 0px;
   top: 0px;
   z-index: 20;
   display: flex;
@@ -315,7 +315,9 @@ body {
   outline: none;
   font-size: 16px;
   letter-spacing: -0.33px;
+  font-family: 'Noto Sans-R';
 }
+
 #submit {
   padding: 0;
   box-sizing: border-box;
@@ -600,7 +602,7 @@ body {
   padding-inline-start: 40px;
   list-style-type: none;
   display: flex;
-  margin-left: -4px;
+  margin-left: -10px;
   margin-top: 18px;
 }
 .categoryCenterLi {
@@ -944,19 +946,19 @@ button {
   line-height: 18px;
   position: relative;
 }
-.custumerAtag {
+.custumerA {
   display: block;
   cursor: pointer;
   vertical-align: middle;
 }
-.custumerSpantag {
+.custumerSpan {
   width: 8px;
   height: 5px;
   background-image: url(https://res.kurly.com/pc/ico/1908/ico_down_16x10.png);
   background-size: cover;
   background-position: center center;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 2.5px;
   margin-bottom: 1px;
 }
 .hiddenMenu {
@@ -1029,4 +1031,104 @@ button {
   box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px;
   width: 100%;
   z-index: 10;
+}
+/* 반응형 */
+div.simple-header {
+  display: none;
+}
+
+div.web-header {
+  width: 100%;
+}
+
+div.web-header-mobile {
+  display: block;
+  position: relative;
+}
+
+.header-wrapper {
+  position: relative;
+  top: 0;
+  z-index: 9998;
+  background-color: #fff;
+  width: 100%;
+  height: 56px;
+  text-align: center;
+}
+
+div.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1440px;
+  height: 100%;
+}
+
+.HeaderMobile_back {
+  position: absolute;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  left: 16px;
+}
+
+.back-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  transform: scale(1);
+  transition: transform 0.3s ease-out;
+  fill: currentColor;
+  color: #495057;
+}
+
+.HeaderMobile_home {
+  right: 16px;
+  position: absolute;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.home-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  transform: scale(1);
+  transition: transform 0.3s ease-out;
+  fill: currentColor;
+  color: #495057;
+}
+
+/* ------------------------------------------------- */
+
+@media (max-width: 1050px) {
+  .headerFirst {
+    display: none;
+  }
+
+  .bottom-container {
+    display: none;
+  }
+
+  .headerSecond {
+    display: none;
+  }
+
+  div.simple-header {
+    display: flex;
+    min-width: 0px;
+  }
+  .container {
+    min-width: 0px;
+  }
+  .joinContainer {
+    min-width: 0px;
+  }
+  .findPasswordContainer {
+    min-width: 0px !important;
+  }
+  .findIdContainer {
+    min-width: 0px !important;
+  }
 }

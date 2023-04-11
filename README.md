@@ -14,7 +14,9 @@
 * 2023년 02월 01일
     * visual code 설치, css 문법, 선택자
     * cascading, inheritance, font, flex, float, table
+    
 * 2023년 02월 02일
     * 클론코딩
+    
 * 2023년 02월 03일
     * 미디어쿼리, 클론코딩 실습
